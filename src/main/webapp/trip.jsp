@@ -55,7 +55,6 @@
 		</header>
 		
 		<main class="container" style="display: flex; flex-direction: column; align-items: center;">
-			<h1>Tipo: <%= request.getParameter("type")%></h1>
 			
 			<% 
 				String type = request.getParameter("type");
