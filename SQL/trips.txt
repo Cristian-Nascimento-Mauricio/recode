@@ -1,0 +1,10 @@
+CREATE TABLE `trips` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `from_` varchar(100) DEFAULT NULL,
+  `to_` varchar(100) DEFAULT NULL,
+  `country` varchar(100) DEFAULT NULL,
+  `state` varchar(100) DEFAULT NULL,
+  `promotion` float DEFAULT '0',
+  `price` float DEFAULT '0',
+  PRIMARY KEY (`id`)
+) 

@@ -1,0 +1,7 @@
+CREATE TABLE `mensagens` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `email` varchar(300) DEFAULT NULL,
+  `messagem` longtext,
+  `date` datetime DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+)
